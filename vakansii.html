@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Работа</title>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="title"><a href="index.html">Cтроительная <br> организация</a></div> 
+            <ul class="menu" >
+                <li><a href="services.html">Услуги</li>
+                <li><a href="contacts.html">Контакты</li>
+                <li><a href="index.html">О нас</li>
+            </ul>
+            <ul class="menu2">
+              <li><a href="projects.html">Проекты</a></li>
+              <li><a href="vakansii.html">Работа</a></li>
+            </ul>
+        </header>
+        </div>
+ <h3>Введите данные, чтобы оставить заявку на работу</h3> </a>
+
+            <div id="form" style="margin-top: 5%;">   
+                <form action="obrabotka2.php" method="post" name="form1">
+                    <br>
+                    <input type="text" name="firstname" placeholder="имя">
+                    <br>
+                    <br>
+                    <input type="text" name="lol" placeholder="номер">
+                    <br>
+                    <br>
+                    <input type="text" name="mail" placeholder="почта">
+                    <br>
+
+                    <label for="gender"></label>
+                    <div id="gendern"><select id="gender" name="gender12">
+                      <option value="female">Женщина</option>
+                      <option value="male">Мужчина</option>
+                    </select></div>
+                    <label for="work"></label>
+                    <div id="gendern"><select id="rabotka" name="rabotka12">
+                      <option value="stroi">Строитель</option>
+                      <option value="arhit">Архитектор</option>
+                      <option value="santeh">Сантехник</option>
+                      <option value="malyar">Маляр-штукатур</option>
+                      <option value="otdel">Отделочник</option>
+                    </select></div>
+                    <input type="submit" value="Submit" name="done">
+                </form>
+            </div>
+</body>
+</html>

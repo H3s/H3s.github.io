@@ -1,0 +1,264 @@
+/* шапка */
+header{
+    width: 100%;
+	  background:#757575 ;
+	  height: 70px;
+    margin:0%;
+    padding:0%;
+  
+}
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 90%;
+    text-align: center;
+    color:white;
+}
+.menu{
+  font-size: small;
+	list-style: none;
+	position: absolute;
+	top: 1px;
+	right: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.menu2{
+  font-size: small;
+	list-style: none;
+	position: absolute;
+	top: 1px;
+	right: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+/* разделение сайта на две стороны */
+#left{
+    position: absolute;
+    left:  10px;
+    top: 80px;
+    width: 50%;
+   
+}
+#right{
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    width: 50%;
+   
+}
+/* слайды */
+* {box-sizing: border-box;}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin-top: 3%;
+  }
+  .Slide{
+    display: block;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .numbertext {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  /* сайт */
+  body{ 
+    background-color:white;
+  }
+  p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: larger;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+  }
+  h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin-left: 5%;
+  }
+
+  li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: larger;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+  }
+  #picture{
+    margin-left: 5%;
+  }
+  /* кнопка */
+  .glow-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #757575 inset, 0 0 0 0 #a0a0a0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+  }
+  .glow-button:hover {
+    box-shadow: 0 0 10px 0 #414141 inset, 0 0 10px 4px #353535;
+    color: #000000;
+  }
+  /* услуги */
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.container {
+    padding: 0 16px;
+}
+
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title2 {
+    color:black ;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #717171;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+  /* форма */
+
+input[type=submit] {
+  background-color: #717171;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 48%;
+}
+
+input[type=text], select, textarea {
+  text-align: center;
+  width: 50%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  margin-left: 25%;
+  resize: vertical 
+}
+
+h3{
+  color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size:100px;
+}
+
+/* контакты */
+#partners{
+  text-align: center;
+}
+
+h2{ 
+  color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5%;
+}
+
+.gendern{
+  text-align: center;
+}
